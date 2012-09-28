@@ -66,9 +66,12 @@ public class Prueba {
 	for(int i=0;i<lista1.size();i++){
 	    Contenedor cLista1 = lista1.get(i);
 	    Contenedor cLista2 = lista2.get(i);
+	    
 	    Contenedor cNuevo = new Contenedor();
+	    
 	    cNuevo.setCampoA(cLista1.getCampoA());
 	    cNuevo.setCampoB(cLista2.getCampoB());
+	    
 	    lista3.add(cNuevo);
 	}
 	
